@@ -24,10 +24,10 @@ function TrendsDownload() {
 
   return (
     <>
-      <div className="mt-8 mx-8 bg-gray-900">
+       <div className="w-screen h-screen bg-gray-900 p-4">
         <button
           onClick={handleExit}
-          className="flex items-center gap-2 bg-white text-orange-500 border-2 border-orange-500 rounded-lg px-6 py-2 text-sm font-semibold transition-transform transform hover:scale-105 hover:bg-orange-100 focus:outline-none"
+          className="flex items-center justify-center gap-1 w-36 rounded-lg border-2 border-white bg-gray-800 p-3 text-sm font-semibold text-white transition-colors delay-300 hover:bg-white hover:text-gray-800"
         >
           <PiSignOutBold size={20} /> SIGN OUT
         </button>

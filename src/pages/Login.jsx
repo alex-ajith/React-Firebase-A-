@@ -18,7 +18,7 @@ function Login() {
       await signInWithEmailAndPassword(auth, email, password);
       Swal.fire({
               icon: "success",
-              title: "Logged In suucessfully!",
+              title: "Logged In",
               confirmButtonText: "OK",
             });
       navigate("/dashboard");
